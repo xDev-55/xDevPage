@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f5f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: rgb(228, 228, 200);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    background-color: transparent;
+}
+
+.header {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Contenido principal */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.welcome-message {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.version-badge {
+    display: inline-block;
+    background-color: rgb(228, 228, 200);
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* ASIGNATURAS NAVEGADOR */
+
+.containerlist {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    text-align: justify;
+    position: relative;
+    padding: 7%;
+    margin-bottom: auto;
+    margin-left: auto;
+    color: black;
+    
+}
+
+.listas {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    text-align: justify;
+    position: relative;
+    padding: 7%;
+    margin-bottom: auto;
+    margin-left: auto;
+    color: black;
+}
+
+.listas:hover {
+    color: black;
+}
+
+/* Navegación rápida */
+.quick-nav {
+    margin-top: 30px;
+}
+
+.quick-nav h2 {
+    margin-bottom: 15px;
+    color: #444;
+    border-bottom: 2px solid rgb(228, 228, 200);
+    padding-bottom: 5px;
+}
+
+.quick-nav-list {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.quick-nav-item {
+    background-color: rgb(228, 228, 200);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.quick-nav-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.quick-nav-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Pie de página */
+footer {
+    background-color: rgb(228, 228, 200);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.ftext {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.anchors {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.anchors:hover {
+    background-color: rgba(255,255,255,0.3);
+    text-decoration: underline;
+}
+
+.version {
+    font-size: 10px;
+    right: 10;
+    position: absolute;
+}
+
+.roll {
+    position: relative;
+
+}
